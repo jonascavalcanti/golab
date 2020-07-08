@@ -12,6 +12,7 @@ The goal of this lab is to demonstrate how to run a simple hello world in golang
 
 ### Running 
 ```
-go run helloworld.go
+$ cd lab-001
+$ go run helloworld.go
 ```
 
