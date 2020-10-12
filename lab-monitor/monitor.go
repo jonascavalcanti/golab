@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"net/http"
 	"os"
 )
@@ -10,7 +11,6 @@ func main() {
 
 	showIntroduction()
 	showMenu()
-	command := scanCommand()
 
 	// if command == 1 {
 	// 	fmt.Println("Monitorando....")
@@ -22,9 +22,11 @@ func main() {
 	// 	fmt.Println("Não conheço este comando")
 	// }
 
-	switch command {
+	cmd := scanCommand()
+
+	switch cmd {
 	case 1:
-		iniciarMonitoramento()
+		monitoring()
 	case 2:
 		fmt.Println("Exibindo logs....")
 	case 3:
@@ -56,9 +58,16 @@ func scanCommand() int {
 	return cmd
 }
 
-func iniciarMonitoramento() {
+func monitoring() {
+
 	fmt.Println("Monitorando....")
-	site := "http://www.funceme.brr"
+	site := "http://www.funceme.br"
 	resp, err := http.Get(site)
-	fmt.Println(resp, err)
+
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer resp.Body.Close()
+
+	fmt.Println(resp.StatusCode)
 }
