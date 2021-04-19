@@ -14,6 +14,7 @@ func main() {
 
 	if len(os.Args) <= 1 {
 		fmt.Println("ex.: ", os.Args[0], "<some arguments>")
+		os.Exit(-1)
 	}
 
 	// fmt.Println("Using range method - return a index and a value")
@@ -27,7 +28,6 @@ func main() {
 	for i := 1; i < len(os.Args); i++ {
 		str += s + os.Args[i]
 		s += " "
-
 	}
 	fmt.Println(time.Since(startTime).Seconds(), "Time execution for{} method")
 	fmt.Println(str)
