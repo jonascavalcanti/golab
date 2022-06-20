@@ -1,8 +1,8 @@
-package main
+package peuler
 
 import "fmt"
 
-func main() {
+func SumMultipleNumbers(number int) {
 	var sum int
 
 	for i := 1; i < 1000; i++ {

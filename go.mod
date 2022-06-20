@@ -1,3 +1,3 @@
-module go-labs
+module golabs
 
 go 1.17
