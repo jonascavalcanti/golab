@@ -1,7 +1,5 @@
 package algo
 
-import "fmt"
-
 //{5, 50, 1, 2}
 func SelectionSort(arr []int) {
 
@@ -20,7 +18,6 @@ func SelectionSort(arr []int) {
 }
 
 func Recusion(x int) int {
-	fmt.Println(x)
 	if x <= 1 {
 		return x
 	} else {
