@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"golabs/algo"
+
+	"github.com/jonascavalcantineto/golabs/algo"
 )
 
 func main() {
