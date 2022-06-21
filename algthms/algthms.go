@@ -1,6 +1,5 @@
-package algo
+package algthms
 
-//{5, 50, 1, 2}
 func SelectionSort(arr []int) {
 
 	var n = len(arr)
