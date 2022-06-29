@@ -5,7 +5,7 @@ import (
 
 	alg "github.com/jonascavalcantineto/golabs/algthms"
 
-	tpp "github.com/jonascavalcantineto/golabs/typpes"
+	mt "github.com/jonascavalcantineto/golabs/manipulator"
 )
 
 func main() {
@@ -21,6 +21,6 @@ func main() {
 	fmt.Println(alg.Recusion(6))
 
 	fmt.Println("Section: TYPES \n")
-	fmt.Println(tpp.StringManipulator("testss"))
+	fmt.Println(mt.StringM("testss"))
 
 }
