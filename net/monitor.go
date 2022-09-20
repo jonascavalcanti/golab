@@ -12,16 +12,6 @@ func main() {
 	showIntroduction()
 	showMenu()
 
-	// if command == 1 {
-	// 	fmt.Println("Monitorando....")
-	// } else if command == 2 {
-	// 	fmt.Println("Exibindo logs....")
-	// } else if command == 3 {
-	// 	fmt.Println("Saindo...")
-	// } else {
-	// 	fmt.Println("Não conheço este comando")
-	// }
-
 	cmd := scanCommand()
 
 	switch cmd {
