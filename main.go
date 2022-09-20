@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	itv "github.com/jonascavalcantineto/golabs/intview"
+	itv "github.com/jonascavalcantineto/golabs/intvw"
 )
 
 func main() {
