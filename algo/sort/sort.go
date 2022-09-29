@@ -1,7 +1,7 @@
-package algthms
+package sort
 
-//SelectionSort(arr []int): inform a int array
-func SelectionSort(arr []int) []int {
+// SelectionSort(arr []int): inform a int array
+func Selection(arr []int) []int {
 
 	var n = len(arr)
 
@@ -18,7 +18,7 @@ func SelectionSort(arr []int) []int {
 	return arr
 }
 
-func QuickSort(arr []int) []int {
+func Quick(arr []int) []int {
 
 	arrSize := len(arr)
 	if arrSize < 2 || arrSize == 0 {
@@ -40,19 +40,19 @@ func QuickSort(arr []int) []int {
 	}
 
 	if len(arrBefore) != 0 {
-		newArray = append(newArray, QuickSort(arrBefore)...)
+		newArray = append(newArray, Quick(arrBefore)...)
 	}
 
 	newArray = append(newArray, arr[pivot])
 
 	if len(arrAfter) != 0 {
-		newArray = append(newArray, QuickSort(arrAfter)...)
+		newArray = append(newArray, Quick(arrAfter)...)
 	}
 
 	return newArray
 }
 
-//recusion(x int): Inform a int number
+// recusion(x int): Inform a int number
 func Recusion(x int) int {
 	if x <= 1 {
 		return x
