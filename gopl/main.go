@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	ch1 "gopl.io/ch1"
+	ch1 "gopl/ch1"
 )
 
 func main() {
