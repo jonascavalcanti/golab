@@ -1,9 +1,10 @@
 package main
 
 import (
-	"ch1/lib"
 	"fmt"
 	"os"
+
+	"github.com/jonascavalcantineto/golabs/ch1/lib"
 )
 
 func main() {
