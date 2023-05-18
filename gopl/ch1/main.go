@@ -24,6 +24,6 @@ func main() {
 	fmt.Println()
 
 	fmt.Println("Echo version 3 is using package strings.Join() statement:")
-	handlers.Echo3(os.Args)
+	handler.Echo3(os.Args)
 
 }
