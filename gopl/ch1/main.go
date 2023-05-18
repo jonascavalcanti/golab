@@ -3,8 +3,6 @@ package main
 import (
 	"fmt"
 	"os"
-
-	"github.com/jonascavalcantineto/golabs/ch1/lib"
 )
 
 func main() {

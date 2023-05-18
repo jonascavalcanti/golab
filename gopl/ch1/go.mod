@@ -1,3 +1,3 @@
-module github.com/jonascavalcantineto/golabs/ch1
+module github.com/jonascavalcantineto/golabs/gopl/ch1
 
 go 1.20
