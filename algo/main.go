@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	sorter "github.com/jonascavalcantineto/golab/algo/sorter"
+	sorter "github.com/jonascavalcanti/golab/algo/sorter"
 )
 
 func main() {
