@@ -1,3 +1,3 @@
-module algo
+module github.com/jonascavalcantineto/golabs/algo
 
-go 1.19
+go 1.20
