@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/jonascavalcantineto/golab/gopl/ch1"
+	ch1 "github.com/jonascavalcantineto/golab/books/gopl/ch1"
 )
 
 func main() {
