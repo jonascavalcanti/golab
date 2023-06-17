@@ -1,8 +1,9 @@
 package main
 
 import (
-	sorter "command-line-arguments/Users/jbenigno/Dev/Repos/Github/jonascavalcantineto/golabs/algo/sorter/recursion.go"
 	"fmt"
+
+	sorter "github.com/jonascavalcantineto/golab/algo/sorter"
 )
 
 func main() {
