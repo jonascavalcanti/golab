@@ -3,24 +3,19 @@ package main
 import "fmt"
 
 func main() {
-	n := int32(15)
-	fizzbuzz(n)
+	fizzbuzz(15)
 }
 
-func fizzbuzz(n int32) {
-	for i := 1; i <= int(n); i++ {
-		if (i%3 == 0) && (i%5 == 0) {
+func fizzbuzz(n int) {
+	for i := 1; i <= n; i++ {
+		if i%3 == 0 && i%5 == 0 {
 			fmt.Println("FizzBuzz")
-		}
-		if (i%3 == 0) && (i%5 != 0) {
+		} else if i%3 == 0 {
 			fmt.Println("Fizz")
-		}
-		if (i%3 != 0) && (i%5 == 0) {
+		} else if i%5 == 0 {
 			fmt.Println("Buzz")
-		}
-		if (i%3 != 0) && (i%5 != 0) {
+		} else {
 			fmt.Println(i)
 		}
-
 	}
 }
