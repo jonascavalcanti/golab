@@ -1,0 +1,6 @@
+200,malucao,/api/malucao,14ms
+200,doidao,/api/doidao,20ms
+500,mendigo,/api/mendigo,65ms
+500,viking,/api/viking,65ms
+200,floki,/api/floki,30ms
+200,floki,/api/floki,130ms
